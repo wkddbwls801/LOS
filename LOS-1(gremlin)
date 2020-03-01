@@ -1,3 +1,4 @@
+~~~~c
 <?php
   include "./config.php";
   login_chk();
@@ -10,3 +11,4 @@
   if($result['id']) solve("gremlin");
   highlight_file(__FILE__);
 ?>
+~~~~
